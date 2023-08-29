@@ -114,6 +114,7 @@ nav li:hover{
 
 .info .card {
     width: 160px;
+    flex-shrink: 0;
 }
 
 .card .placeholder {
@@ -127,19 +128,37 @@ nav li:hover{
     margin-top: 12px;
 }
 
+.quote {
+    background-color: #e5e7eb;
+    padding: 90px 0;
+    
+}
 
+.quote .container div {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.quote-para {
+    font-size: 36px;
+    font-weight: light;
+    color: #1f2937;
+}
+
+.quote-author {
+    text-align: end;
+    padding-right: 10px;
+    font-weight: bold;
+    font-size: 18px;
+}
 
 
 @media screen and (min-width: 1100px){
     .container{
-        width: 60%;
+        width: 50%;
     }
 }
 
-@media screen and (max-width: 800px){
-    .container {
-        width: 95%;
-    }
-}
+
 
 

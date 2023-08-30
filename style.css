@@ -130,8 +130,7 @@ nav li:hover{
 
 .quote {
     background-color: #e5e7eb;
-    padding: 90px 0;
-    
+    padding: 80px 0;
 }
 
 .quote .container div {
@@ -150,6 +149,46 @@ nav li:hover{
     padding-right: 10px;
     font-weight: bold;
     font-size: 18px;
+}
+
+.call-to-action {
+    padding: 80px 0;
+}
+
+.call-to-action .container {
+    background-color: #3882f6;
+    border-radius: 5px;
+}
+
+.call-to-action .action-container {
+    width: 75%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 0;
+}
+
+.call-to-action .action-container h4 {
+    color: #f9faf8;
+}
+
+.call-to-action .action-container p {
+    color: #f9faf8;
+    font-size: 12px;
+}
+
+.call-to-action button {
+    background-color: #3882f6;
+    color: #f9faf8;
+    font-weight: bold;
+    border: 1px solid #f9faf8;
+    padding: 0px 25px;
+    border-radius: 5px;
+}
+
+.call-to-action button:hover {
+    color: #1f2937;
+    cursor: pointer;
 }
 
 
